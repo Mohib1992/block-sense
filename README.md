@@ -21,3 +21,39 @@
 ### Installation
 ```bash
 composer require blocksense/blockchain-tracker
+```
+
+### Example Ueses
+```php
+// Using CoinGecko
+$geckoProvider = new CoinGeckoProvider('YOUR_API_KEY');
+$converter = new CurrencyConverter($geckoProvider);
+$amountInUSD = $converter->cryptoToFiat(1.5, 'ETH', 'USD');
+
+// Using Binance
+$binanceProvider = new BinanceProvider();
+$converter = new CurrencyConverter($binanceProvider);
+$btcAmount = $converter->fiatToCrypto(100, 'USD', 'BTC');
+
+// Custom provider implementation
+class MyCustomProvider implements ExchangeRateProviderInterface {
+    // ... implementation ...
+}
+$customConverter = new CurrencyConverter(new MyCustomProvider());
+```
+
+## Uses of Compliance Engine
+
+```php 
+$provider = new MyBlockchainProvider();
+$engine = new ComplianceEngine($provider);
+
+// Wait for 6 confirmations
+$engine->waitForConfirmations('0x123...', 6, 'ETH');
+
+// Generate comprehensive report
+$report = $engine->generateReport('0xabc...', ['FATF', 'OFAC']);
+
+// Add custom report generator
+$engine->addReportGenerator('GDPR', new GdprReportGenerator());
+```
