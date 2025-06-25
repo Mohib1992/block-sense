@@ -5,10 +5,9 @@
     "guzzlehttp/guzzle": "^7.9"
   },
   "autoload": {
-    "classmap": [
-      "src/",
-      "tests/"
-    ]
+    "psr-4": {
+      "BlockSense\\": "src/"
+    }
   },
   "scripts": {
     "test": "./vendor/bin/phpunit tests",
