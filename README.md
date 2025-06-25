@@ -2,7 +2,7 @@
 
 [![PHP 8.2+](https://img.shields.io/badge/PHP-8.2+-8892BF.svg?logo=php)](https://php.net/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://github.com/yourusername/blocksense/actions/workflows/tests.yml/badge.svg)](https://github.com/yourusername/blocksense/actions)
+[![Tests](https://github.com/yourusername/blocksense/actions/workflows/test.svg)](https://github.com/Mohib1992/block-sense/actions/runs/15883565951/job/44789885035)
 
 ```
  
