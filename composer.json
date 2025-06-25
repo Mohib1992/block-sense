@@ -7,7 +7,7 @@
             "email": "connect@mohibullah.info"
         }
     ],
-  "license": "MIT"
+  "license": "MIT",
   "require-dev": {
     "phpunit/phpunit": "^12.2",
     "friendsofphp/php-cs-fixer": "^3.75",
