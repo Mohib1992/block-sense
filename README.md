@@ -4,7 +4,20 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Tests](https://github.com/yourusername/blocksense/actions/workflows/tests.yml/badge.svg)](https://github.com/yourusername/blocksense/actions)
 
-<img src="https://user-images.githubusercontent.com/.../blocksense-banner.png" alt="BlockSense Banner" width="800">
+```
+ 
+ /$$$$$$$  /$$                     /$$        /$$$$$$                                         
+| $$__  $$| $$                    | $$       /$$__  $$                                        
+| $$  \ $$| $$  /$$$$$$   /$$$$$$$| $$   /$$| $$  \__/  /$$$$$$  /$$$$$$$   /$$$$$$$  /$$$$$$ 
+| $$$$$$$ | $$ /$$__  $$ /$$_____/| $$  /$$/|  $$$$$$  /$$__  $$| $$__  $$ /$$_____/ /$$__  $$
+| $$__  $$| $$| $$  \ $$| $$      | $$$$$$/  \____  $$| $$$$$$$$| $$  \ $$|  $$$$$$ | $$$$$$$$
+| $$  \ $$| $$| $$  | $$| $$      | $$_  $$  /$$  \ $$| $$_____/| $$  | $$ \____  $$| $$_____/
+| $$$$$$$/| $$|  $$$$$$/|  $$$$$$$| $$ \  $$|  $$$$$$/|  $$$$$$$| $$  | $$ /$$$$$$$/|  $$$$$$$
+|_______/ |__/ \______/  \_______/|__/  \__/ \______/  \_______/|__/  |__/|_______/  \_______/
+---------------------------------------------------------------
+REAL-TIME BLOCKCHAIN MONITORING & FRAUD DETECTION FOR PHP
+---------------------------------------------------------------
+```
 
 > Enterprise-grade blockchain security for PHP developers
 

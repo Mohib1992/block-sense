@@ -1,4 +1,6 @@
 {
+  "name": "mohib/block-sense",
+  "description": "BlockSense is the first PHP-native toolkit for real-time cryptocurrency transaction monitoring with built-in fraud detection. Designed for developers building secure blockchain applications, it replaces expensive enterprise solutions like Chainalysis with an open-source, self-hostable alternative.",
   "require-dev": {
     "phpunit/phpunit": "^12.2",
     "friendsofphp/php-cs-fixer": "^3.75",
