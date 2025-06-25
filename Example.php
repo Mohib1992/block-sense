@@ -3,7 +3,6 @@ require 'vendor/autoload.php';
 
 use BlockSense\BlockMonitor;
 use BlockSense\FraudDetector;
-use BlockSense\Util\Networking\WebSocketServer;
 use BlockSense\Util\Logger;
 use BlockSense\Util\CurrencyConverter;
 use BlockSense\ComplianceEngine;
@@ -11,6 +10,8 @@ use BlockSense\ComplianceEngine;
 // Initialize
 $monitor = new BlockMonitor('eth', 'API_KEY');
 $detector = new FraudDetector();
+
+// Create Web Socker Server
 $ws = new WebSocketServer();
 
 // Add fraud rules
